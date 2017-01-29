@@ -1,13 +1,18 @@
 body {
     background-color: white;
+    background-image: url("index-wallpaper.jpg");
+    background-attachment: fixed;
+    border: 2px solid white;
+    
+
 }
 
 h1 { 
-  background-color: grey;
+  background-color: white;
   text-align: center; 
   color: black; 
 }
-div { 
+#secondpage { 
 	text-align: center; 
 	
 }
