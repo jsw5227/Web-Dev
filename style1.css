@@ -1,8 +1,13 @@
 body {
     background-color: black;
 }
+
 h1 { 
   background-color: white; 
+
+p {
+    color: white; 
+
 }
 .center{
 	text-align: center;
