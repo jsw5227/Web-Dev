@@ -3,13 +3,7 @@ body {
 }
 
 h1 { 
-  background-color: white; 
-
-p {
-    color: white; 
-
-}
-.center{
-	text-align: center;
-	border: 3px solid white;
+  background-color: white;
+  text-align: center; 
+	
 }
