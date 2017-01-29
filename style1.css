@@ -1,6 +1,10 @@
 body {
     background-color: black;
 }
-p { 
+h1 { 
   background-color: white; 
+}
+.center{
+	text-align: center;
+	border: 3px solid white;
 }
