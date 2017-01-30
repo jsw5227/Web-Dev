@@ -2,7 +2,7 @@ body {
     background-color: white;
     background-image: url("index-wallpaper.jpg");
     border: 2px solid white;
-    
+   
 
 }
 
@@ -10,8 +10,43 @@ h1 {
   background-color: white;
   text-align: center; 
   color: black; 
+
 }
-#secondpage { 
-	text-align: center; 
+ 
 	
+
+#dropmenu{ 
+
+}
+
+#TopLink_chatrooms{
+	text-decoration: none;
+	color: white;
+	font-size: 20;
+	padding-right: 15px;
+}
+
+#TopLink_secondpage{
+	text-decoration: none;
+	color: white;
+	font-size: 20;
+	padding-right: 15px;
+}
+
+
+#TopLink_contact{
+	text-decoration: none;
+	color: white;
+	font-size: 20;
+	padding-right: 15px;
+}
+
+#TopLink_about{
+	text-decoration: none;
+	color: white;
+	font-size: 20;
+}
+#footer{
+	text-align: center;
+	padding-top: 800px;
 }
