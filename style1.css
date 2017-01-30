@@ -2,7 +2,8 @@ body {
     background-color: white;
     background-image: url("index-wallpaper.jpg");
     border: 2px solid white;
-   
+    padding: 0;
+    margin: 0;
 
 }
 
