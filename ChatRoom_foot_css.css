@@ -16,6 +16,43 @@ div {
 	text-align: center;
  }
 #catpic {
-	width: 2000;
-	height: 1000px;
+	width: 1000;
+	height: 500px;
+
+}
+#catpicDiv {
+	align-content: center; 
+	
+}
+#TopLink_home{
+	text-decoration: none;
+	color: white;
+	font-size: 20;
+	padding-right: 15px;
+}
+
+#TopLink_secondpage{
+	text-decoration: none;
+	color: white;
+	font-size: 20;
+	padding-right: 15px;
+}
+
+
+#TopLink_contact{
+	text-decoration: none;
+	color: white;
+	font-size: 20;
+	padding-right: 15px;
+}
+
+#TopLink_about{
+	text-decoration: none;
+	color: white;
+	font-size: 20;
+} 
+
+#footer{
+	text-align: center;
+	
 }
