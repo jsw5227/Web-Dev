@@ -27,14 +27,14 @@ div {
 #TopLink_home{
 	text-decoration: none;
 	color: white;
-	font-size: 20;
+	font-size: 20px;
 	padding-right: 15px;
 }
 
 #TopLink_secondpage{
 	text-decoration: none;
 	color: white;
-	font-size: 20;
+	font-size: 20px;
 	padding-right: 15px;
 }
 
@@ -42,14 +42,15 @@ div {
 #TopLink_contact{
 	text-decoration: none;
 	color: white;
-	font-size: 20;
+	font-size: 20px;
 	padding-right: 15px;
 }
 
 #TopLink_about{
 	text-decoration: none;
 	color: white;
-	font-size: 20;
+	font-size: 20px;
+	
 } 
 
 #footer{
