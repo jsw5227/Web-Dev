@@ -13,9 +13,8 @@ body {
 	overflow: hidden;
 }
 .navbar-nav>li{
-	margin: 0 0 0 0 !important;
 	background-color: steelblue !important; 
-	position: absolute!important; 
+        float: none!important; 
 	display: inline-block !important;
 	text-align: center !important;
 	
