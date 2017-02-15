@@ -1,5 +1,5 @@
 body {
-	background-color: black !important;
+	background-color:ivory!important;
 }
 .title { 
 	font-size: 500%; 
@@ -17,6 +17,7 @@ body {
 	background-color: steelblue !important; 
 	position: absolute!important; 
 	display: inline-block !important;
+	text-align: center !important;
 	
 
 	
