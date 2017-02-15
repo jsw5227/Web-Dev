@@ -55,7 +55,7 @@ body {
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-	.navbar-nav>li{
+	.navbar-nav{
 	background-color: steelblue !important; 
         float: left!important; 
 	overflow:hidden !important;
