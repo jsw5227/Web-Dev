@@ -1,5 +1,5 @@
 body {
-	background-color: ivory!important;
+	background-color: black!important;
 }
 .title { 
 	font-size: 500%; 
@@ -17,6 +17,7 @@ body {
 	background-color: steelblue !important; 
 	position: absolute!important; 
 	display: inline-block !important;
+	bottom: -15px !important;
 	
 }
 .yearchat-nav {
