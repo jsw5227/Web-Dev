@@ -16,6 +16,7 @@ body {
 	margin: 0 0 0 0 !important;
 	background-color: steelblue !important; 
 	position: absolute!important; 
+	display: inline-block !important;
 	
 }
 .yearchat-nav {
