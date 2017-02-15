@@ -17,6 +17,7 @@ body {
 	background-color: steelblue !important; 
 	position: absolute!important; 
 	display: inline-block !important;
+	float:none !important;
 
 	
 }
