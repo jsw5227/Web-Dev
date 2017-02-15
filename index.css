@@ -1,0 +1,27 @@
+body {
+	background-color: ivory!important;
+}
+.title { 
+	font-size: 500%; 
+	color: white;
+	text-align: center;
+	font-weight: bold; 
+}
+.well { 
+	background-color: skyblue !important;
+	margin: 0 0 0 0 !important; 
+	overflow: hidden;
+}
+.navbar{
+	margin: 0 0 0 0 !important;
+	background-color: steelblue !important;
+}
+.yearchat-nav {
+	margin-left: 10px !important;
+	font-weight: bold !important;
+	color: black !important;
+}
+.nav-box > li > a {
+	color: black !important;
+	font-weight: bold !important;
+}
