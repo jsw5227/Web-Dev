@@ -14,7 +14,8 @@ body {
 }
 .navbar{
 	margin: 0 0 0 0 !important;
-	background-color: steelblue !important;
+	background-color: steelblue !important; 
+	float:left !important; 
 }
 .yearchat-nav {
 	margin-left: 10px !important;
