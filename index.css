@@ -55,5 +55,9 @@ body {
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-
+	background-color: steelblue !important; 
+        float: left!important; 
+	overflow:hidden !important 
+	text-align: center !important;
+	margin-left: 100px !important;
 }
