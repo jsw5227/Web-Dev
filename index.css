@@ -15,8 +15,8 @@ body {
 .navbar{
 	margin: 0 0 0 0 !important;
 	background-color: steelblue !important; 
-	overflow: scroll !important; 
-	min-width: 375px !important; 
+	overflow:hidden !important; 
+	
 }
 .yearchat-nav {
 	margin-left: 10px !important;
