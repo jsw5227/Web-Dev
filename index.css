@@ -27,7 +27,7 @@ body {
 	color: black !important;
 	font-weight: bold !important;
 }
-!important @media(max-width:400px){
+!important @media(max-width:375px){
 	.nav-box > li > a{
 		background-color: steelblue !important; 
         	float: none!important; 
