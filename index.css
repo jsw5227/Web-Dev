@@ -1,5 +1,5 @@
 body {
-	background-color: black!important;
+	background-color: ivory!important;
 }
 .title { 
 	font-size: 500%; 
@@ -12,7 +12,7 @@ body {
 	margin: 0 0 0 0 !important; 
 	overflow: hidden;
 }
-.navbar{
+.navbar-nav>li{
 	margin: 0 0 0 0 !important;
 	background-color: steelblue !important; 
 	position: absolute!important; 
