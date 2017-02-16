@@ -1,0 +1,93 @@
+body {
+	background-color:black!important;
+}
+.title { 
+	font-size: 500%; 
+	color: white;
+	text-align: center;
+	font-weight: bold; 
+}
+.well { 
+	background-color: skyblue !important;
+	margin: 0 0 0 0 !important; 
+	overflow: hidden;
+}
+.navbar-nav>li{
+	background-color: steelblue !important; 
+        float: left!important; 
+	overflow:hidden !important 
+	text-align: center !important;
+}
+.yearchat-nav {
+	margin-left: 0px !important;
+	font-weight: bold !important;
+	color: black !important;
+	border-left: -50px !important;
+}
+.nav-box > li > a {
+	color: black !important;
+	font-weight: bold !important;
+
+}
+#yearchat-drop {
+	border-radius: 0 !important;
+	margin-top: -102px !important;
+	height: 50px !important;
+	border-width:10px !important;
+	margin-right: -15px !important;
+}
+#drop-items {
+	z-index: 1 !important;
+}
+.navbar {
+	z-index: 0 !important;
+}
+
+/* *********************************************************media Queries********************************************************* */
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	#yearchat-drop {
+		border-radius: 0 !important;
+		margin-top: -6px !important;
+		height: 50px !important;
+		border-width:10px !important;
+		margin-left: -30px !important;
+	}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	.navbar-nav{
+		background-color: steelblue !important; 
+        float: left!important; 
+		overflow:hidden !important;
+		text-align: center !important;
+		margin-left: 15px !important;
+	}
+	#yearchat-drop {
+		border-radius: 0 !important;
+		margin-top: -6px !important;
+		height: 50px !important;
+		border-width:10px !important;
+		margin-left: -30px !important;
+		
+	}
+	
+}
