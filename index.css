@@ -14,12 +14,13 @@ body {
 }
 .navbar-nav>li{
 	background-color: steelblue !important; 
-        float: left!important; 
-	overflow:hidden !important 
+    float: left!important; 
+	overflow:hidden !important; 
 	text-align: center !important;
+	margin-left: -15px !important; 
 }
 .yearchat-nav {
-	margin-left: 0px !important;
+	margin-right: 0px !important;
 	font-weight: bold !important;
 	color: black !important;
 	border-left: -50px !important;
@@ -30,17 +31,21 @@ body {
 
 }
 #yearchat-drop {
+	background-color: steelblue !important;
 	border-radius: 0 !important;
-	margin-top: -102px !important;
-	height: 50px !important;
-	border-width:10px !important;
-	margin-right: -15px !important;
+	margin-top: -70px !important;
+	height: 48px !important;
+	margin-right: 16px !important;
+	float: right !important;
+
 }
 #drop-items {
-	z-index: 1 !important;
+	margin-top: -18px !important;
+	position: relative !important; 
+	float: right !important;
 }
-.navbar {
-	z-index: 0 !important;
+.navbar-nav{
+	margin-left: 30px !important;
 }
 
 /* *********************************************************media Queries********************************************************* */
@@ -65,29 +70,81 @@ body {
 @media (max-width: 767px) {
 	#yearchat-drop {
 		border-radius: 0 !important;
-		margin-top: -6px !important;
-		height: 50px !important;
-		border-width:10px !important;
-		margin-left: -30px !important;
+		margin-top: -70px !important;
+		height: 48px !important;
+		margin-right: 15px !important;
+		float: right !important;
+		padding-top: 15px !important;
 	}
-}
-
-/* Portrait phones and smaller */
-@media (max-width: 480px) {
 	.navbar-nav{
 		background-color: steelblue !important; 
         float: left!important; 
 		overflow:hidden !important;
 		text-align: center !important;
 		margin-left: 15px !important;
+		margin-bottom: 1px !important;
+		padding-left: 4px !important; 
+		padding-right: 4px !important;
+		padding-bottom: 4px !important;
+		padding-top: 4px !important;
 	}
+	#drop-items {
+		float: right !important;
+	}
+	.navbar-nav {
+		margin-top: 0px !important;
+	}
+	#home-nav {
+		padding-left: 23px !important;
+	}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
 	#yearchat-drop {
 		border-radius: 0 !important;
-		margin-top: -6px !important;
-		height: 50px !important;
-		border-width:10px !important;
-		margin-left: -30px !important;
-		
+		margin-top: -70px !important;
+		height: 48px !important;
+		margin-right: 15px !important;
+		float: right !important;
+		padding-top: 15px !important;
 	}
-	
+	.navbar-nav{
+		background-color: steelblue !important; 
+        float: left!important; 
+		overflow:hidden !important;
+		text-align: center !important;
+		margin-left: 15px !important;
+		margin-bottom: 1px !important;
+		padding-left: 4px !important; 
+		padding-right: 4px !important;
+		padding-bottom: 4px !important;
+		padding-top: 4px !important;
+	}
+@media (max-width: 406px) {
+	#yearchat-drop {
+		background-color: steelblue !important;
+		border-radius: 0 !important;
+		margin-top: -20px !important;
+		height: 48px !important;
+		margin-left: 16px !important;
+		float: left !important;
+		padding-top: 15px !important;
+		text-align: auto !important;
+	}
+	.navbar-nav{
+		background-color: steelblue !important; 
+        float: left!important; 
+		overflow:hidden !important;
+		text-align: center !important;
+		margin-left: 15px !important;
+		margin-bottom: 1px !important;
+		padding-left: 4px !important; 
+		padding-right: 4px !important;
+		padding-bottom: 4px !important;
+		padding-top: 4px !important;
+	}
+	#drop-items {
+		float: left !important;
+	}
 }
