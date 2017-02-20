@@ -1,0 +1,51 @@
+<!-- !!!!!!!!!!!!! make a template and static directory for the entire website and place this in itc !!!!!!!!!!!! -->
+{% load staticfiles %} <!-- loads the css static files -->
+<!DOCTYPE html>
+<html lang="en"> 
+	<head>
+		<meta charset="UTF-8">
+
+		<link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}"> <!-- used to load in the directory of the css -->
+
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container-center">
+			<div class="row">
+				<div class="well well-sm">	
+					<div class="col-lg-12 title">YearChat</div>
+				</div>
+			</div>
+
+			<div class="row">
+			<div class="column-md-10">
+				<nav class="navbar navbar-default">
+					<div class="containter-fluid">
+						
+						<ul class="nav navbar-nav nav-box">
+							<li><a id="home-nav" href="index.html">Home</a></li>
+      						<li><a href="#">Topics</a></li>
+      						<li><a href="#">Users</a></li>
+      						<li><a href="#">Messages</a></li>
+						</ul>
+					</div>
+				</nav>
+				</div>
+				<div class="column-md-2">
+					<div class="dropdown">
+  						<button id="yearchat-drop" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">YearChat
+  						<span class="caret"></span>
+  							</button>
+  								<ul id="drop-items" class="dropdown-menu dropdown-menu-right">
+    								<li><a href="#">Login</a></li>
+    								<li><a href="#">Creat Account</a></li>
+  								</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+<!-- template for the home profile -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for Users in all_Users %}  <!-- curly brace and percent indicates django code -->
+    <div>{{ Users.username }}</div> <!-- two curly braces indicates variables -->
+    <div>{{ Users.biography }}</div>
+{% endfor %} <!-- indicates end of the for loop -->
+
+</body>
+</html>
