@@ -1,0 +1,33 @@
+html {
+	overflow: hidden !important;
+}
+button {
+	margin-right: 50px !important;
+	margin-bottom: 10px !important;
+}
+.well{
+	text-align: center !important;
+}
+.calc {
+	width: 330px;
+	height: 400px;
+	background-color: steelblue !important;
+	border: 2px solid black !important;
+	margin: auto !important;
+	
+}
+.console-text {
+	float: left;
+}
+#console {
+	background-color: black !important;
+	height: 100px;
+	overflow: scroll;
+	color: green;
+}
+#console-title {
+	text-align: left;
+	background-color: black !important;
+	margin: 1px !important;
+	color: white;
+}
