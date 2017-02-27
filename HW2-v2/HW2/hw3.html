@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset="UTF-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="hw3.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<title> Calculator </title>
+	</head>
+	<body> 
+		<div class="container-fluid">
+			<div class="row">
+				<div class="well well-sm cal">
+					<div class="well well-sm calc">
+						<table>
+							<tbody>
+								<tr>
+									<div class="form-group">
+  										<input type="text" value="0" class="form-control" id="usrInput" readonly="enabled"> 
+									</div>
+								</tr>
+								<tr>
+							    	<td><button type="button" class="btn btn-default" id="1">1</button></td>
+							    	<td><button type="button" class="btn btn-default" id="2">2</button></td>
+							    	<td><button type="button" class="btn btn-default" id="3">3</button></td>
+							    	<td><button type="button" class="btn btn-default" id="plus">+</button></td>
+							    </tr>
+								<tr>
+							    	<td><button type="button" class="btn btn-default" id="4">4</button></td>
+							    	<td><button type="button" class="btn btn-default" id="5">5</button></td>
+							   		<td><button type="button" class="btn btn-default" id="6">6</button></td>
+							   		<td><button type="button" class="btn btn-default" id="minus">-</button></td>
+							   	</tr>
+								<tr>
+							  		<td><button type="button" class="btn btn-default" id="7">7</button></td>
+							    	<td><button type="button" class="btn btn-default" id="8">8</button></td>
+							    	<td><button type="button" class="btn btn-default" id="9">9</button></td>
+							    	<td><button type="button" class="btn btn-default" id="multiply">x</button></td>
+								</tr>
+								<tr>
+							    	<td><button type="button" class="btn btn-default" id="0">0</button></td>
+							    	<td><button type="button" class="btn btn-default" id="clear">clear</button></td>
+							    	<td><button type="button" class="btn btn-default" id="equals">=</button></td>
+							    	<td><button type="button" class="btn btn-default" id="divide">/</button></td>
+							    </tr>
+							    <tr>
+							    	<div id="console-title" class="well well-sm"> Sarcastic/Passive agressive Console </div>
+							    	<div id="console" class="well well-sm">
+							    		<div id="console-text"> >> </div>
+							    	</div>
+							    </tr>
+						    </tbody>
+						</table>
+					</div>
+			   </div>
+		   </div>
+	   </div>
+	  <script src="hw3.js"></script>
+	</body>
+</html>
