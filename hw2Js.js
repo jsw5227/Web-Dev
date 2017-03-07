@@ -124,21 +124,42 @@ let constructConsoleText = function() {
 	});
 	oldNode.parentNode.replaceChild(newNode,oldNode);
 }; 
-
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    //events for androids 
+    //listens for the events on the page.
+    document.getElementById("0").addEventListener("touch",displayNums);
+    document.getElementById("1").addEventListener("touch",displayNums);
+    document.getElementById("2").addEventListener("touch",displayNums);
+    document.getElementById("3").addEventListener("touch",displayNums);
+    document.getElementById("4").addEventListener("touch",displayNums);
+    document.getElementById("5").addEventListener("touch",displayNums);
+    document.getElementById("6").addEventListener("touch",displayNums);
+    document.getElementById("7").addEventListener("touch",displayNums);
+    document.getElementById("8").addEventListener("touch",displayNums);
+    document.getElementById("9").addEventListener("touch",displayNums);
+    document.getElementById("plus").addEventListener("touch",operation);
+    document.getElementById("minus").addEventListener("touch",operation);
+    document.getElementById("multiply").addEventListener("touch",operation);
+    document.getElementById("divide").addEventListener("touch",operation);
+    document.getElementById("equals").addEventListener("touch",doMath);
+    document.getElementById("clear").addEventListener("touch",clear);
+}
+else{
 //listens for the events on the page.
-document.getElementById("0").addEventListener("click",displayNums);
-document.getElementById("1").addEventListener("click",displayNums);
-document.getElementById("2").addEventListener("click",displayNums);
-document.getElementById("3").addEventListener("click",displayNums);
-document.getElementById("4").addEventListener("click",displayNums);
-document.getElementById("5").addEventListener("click",displayNums);
-document.getElementById("6").addEventListener("click",displayNums);
-document.getElementById("7").addEventListener("click",displayNums);
-document.getElementById("8").addEventListener("click",displayNums);
-document.getElementById("9").addEventListener("click",displayNums);
-document.getElementById("plus").addEventListener("click",operation);
-document.getElementById("minus").addEventListener("click",operation);
-document.getElementById("multiply").addEventListener("click",operation);
-document.getElementById("divide").addEventListener("click",operation);
-document.getElementById("equals").addEventListener("click",doMath);
-document.getElementById("clear").addEventListener("click",clear);
+    document.getElementById("0").addEventListener("click",displayNums);
+    document.getElementById("1").addEventListener("click",displayNums);
+    document.getElementById("2").addEventListener("click",displayNums);
+    document.getElementById("3").addEventListener("click",displayNums);
+    document.getElementById("4").addEventListener("click",displayNums);
+    document.getElementById("5").addEventListener("click",displayNums);
+    document.getElementById("6").addEventListener("click",displayNums);
+    document.getElementById("7").addEventListener("click",displayNums);
+    document.getElementById("8").addEventListener("click",displayNums);
+    document.getElementById("9").addEventListener("click",displayNums);
+    document.getElementById("plus").addEventListener("click",operation);
+    document.getElementById("minus").addEventListener("click",operation);
+    document.getElementById("multiply").addEventListener("click",operation);
+    document.getElementById("divide").addEventListener("click",operation);
+    document.getElementById("equals").addEventListener("click",doMath);
+    document.getElementById("clear").addEventListener("click",clear);
+}
