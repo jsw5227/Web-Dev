@@ -149,7 +149,7 @@ let constructConsoleText = function() {
 }
 else{
 //listens for the events on the page.
-	console.log(navigator.useragent);
+	console.log(navigator.appVersion);
     document.getElementById("0").addEventListener("click",displayNums);
     document.getElementById("1").addEventListener("click",displayNums);
     document.getElementById("2").addEventListener("click",displayNums);
