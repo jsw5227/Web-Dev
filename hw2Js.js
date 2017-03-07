@@ -128,8 +128,8 @@ let constructConsoleText = function() {
     if(navigator.userAgent === "Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1") { 
     //events for mobile
     //listens for the events on the page.
-	    consoleText.push("hello"); 
-	   constructConsoleText(); 
+    consoleText.push("hello"); 
+    constructConsoleText(); 
     document.getElementById("0").addEventListener("touchstart",displayNums);
     document.getElementById("1").addEventListener("touchstart",displayNums);
     document.getElementById("2").addEventListener("touch",displayNums);
@@ -149,6 +149,7 @@ let constructConsoleText = function() {
 }
 else{
 //listens for the events on the page.
+	console.log(navigator.useragent);
     document.getElementById("0").addEventListener("click",displayNums);
     document.getElementById("1").addEventListener("click",displayNums);
     document.getElementById("2").addEventListener("click",displayNums);
