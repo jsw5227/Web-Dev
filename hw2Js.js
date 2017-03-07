@@ -128,7 +128,7 @@ let constructConsoleText = function() {
     //events for mobile
     //listens for the events on the page.
     document.getElementById("0").addEventListener("Touch",displayNums);
-    document.getElementById("1").addEventListener("touch",displayNums);
+    document.getElementById("1").addEventListener("Touch",displayNums);
     document.getElementById("2").addEventListener("touch",displayNums);
     document.getElementById("3").addEventListener("touch",displayNums);
     document.getElementById("4").addEventListener("touch",displayNums);
