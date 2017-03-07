@@ -127,6 +127,8 @@ let constructConsoleText = function() {
     if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) { 
     //events for mobile
     //listens for the events on the page.
+	    consoleText.push("hello"); 
+	   constructConsoleText(); 
     document.getElementById("0").addEventListener("touchstart",displayNums);
     document.getElementById("1").addEventListener("touchstart",displayNums);
     document.getElementById("2").addEventListener("touch",displayNums);
