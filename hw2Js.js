@@ -123,6 +123,7 @@ let constructConsoleText = function() {
 		newNode.appendChild(liNode);
 	});
 	oldNode.parentNode.replaceChild(newNode,oldNode);
+};
 	
     if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) { 
     //events for mobile
