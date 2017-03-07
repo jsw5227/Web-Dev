@@ -1,0 +1,46 @@
+/**
+ * Author: Jacob Wakefield 
+ * Course: CSC365
+ * Descipton: a simple caclulator based on the windows calculator. 
+ */
+html {
+	overflow: hidden;
+}
+button {
+	margin-right: 50px;
+	margin-bottom: 10px !important;
+}
+ul {
+	list-style-type: none;  
+}
+.well{
+	text-align: center !important;
+}
+.calc {
+	width: 330px;
+	height: 400px;
+	background-color: steelblue;
+	border: 2px solid black;
+	margin: auto;
+}
+#console-text {
+	float: left;
+	margin-left: -45px; 
+}
+#console {
+	background-color: black;
+	height: 100px;
+	overflow: scroll;
+	color: green;
+	white-space: nowrap; 
+}
+#console-title {
+	text-align: left;
+	background-color: black;
+	margin: 1px;
+	color: white;
+	font-weight: bold;
+}
+#usrInput {
+	width: 305px;
+}
