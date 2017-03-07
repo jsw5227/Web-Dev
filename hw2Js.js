@@ -125,7 +125,7 @@ let constructConsoleText = function() {
 	oldNode.parentNode.replaceChild(newNode,oldNode);
 };
 	
-    if(Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047.test(navigator.userAgent)) { 
+    if(navigator.userAgent === "Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047") { 
     //events for mobile
     //listens for the events on the page.
 	    consoleText.push("hello"); 
